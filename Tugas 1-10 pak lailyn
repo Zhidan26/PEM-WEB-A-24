@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar HTML ZHIDAN 22111022 </title>
+</head>
+<body>
+	<font size="13em" color="55e6de" face=
+		"Calibri, Tahoma, Arial">
+	
+	Bismillah, bulan depan saya bisa HTML
+	ZHIDAN 22111022
+</font>
+<H1 style="font-size: 12 px;color: blue;
+text-decoration: underline:">something's up be careful</H1>
+<H2>something's up be careful</H2>
+<H3.>something's up be careful</H3>
+<H4>something's up be careful</H4>
+<H5>something's up be careful</H5>
+<H6>something's up be careful</H6>
+<br>
+<b>Bold</b>
+<strong>[Penting]</strong>
+<i>Miring</i>
+<u>Garis Bawah</u>
+<em>Menekankan</em>
+<del>2000</del>1500
+meter<sup>3</sup>
+H<sub>2</sub>
+<br>
+<pre>
+	<ul type= "disc">
+		<li>Prodi SI</li>
+		<li>Prodi TI</li>
+		<li>Prodi Teknosi</li>
+	</ul>
+	<ol type="I">
+		<li>Soekarno</li>
+		<li>Soeharto</li>
+		<li>BJ. Habibi</li>
+		<li>Gus dur</li>
+	</ol>
+</body>
+<!DOCTYPE html>
+<html>
+
+</head>
+<body>
+	klik
+	<a NAME= "LINKEDIN" title= " Linked in" target= "_Blank" href="https://id.linkedin.com/in/ziqryzhidan">
+		disini
+	</a>
+	           untuk buka Linked in
+	<br>
+	<a href="https://github.com/Zhidan26">
+		<img title="Calon Orang Kaya" alt=" harusnya ada gambar orang ganteng, sepertinya jaringan eror" width= "30%" src="https://scontent.fbth10-1.fna.fbcdn.net/v/t1.6435-9/132029487_3623112741121444_7327270582193652866_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=53a332&_nc_ohc=2ebQosvw28AQ7kNvgGW9TO0&_nc_ht=scontent.fbth10-1.fna&_nc_gid=AmdyD5TuE6I5R5j-N8ymqRw&oh=00_AYBcpJJe96p6JxG_7X_AERkt69nuYhUoRpPKo_wYtVgUtQ&oe=67380BA1" >
+		
+
+	</a>
+</body>
+</html>
+
+<html>
+ <head>
+ 	<title>Melakukan format penulisan </title>
+ </head>
+ <body>
+ 	<!--membuat Tulisan menjadi tebal --> 
+ 	<b> tulisan di cetak tebal </b>
+ 	<p>
+ 	<!--membuat tulisan tertulis miring -->
+ 	<i> tulisan ini telah di cetak miring </i>
+ 	<p>
+ 	<!--membuat tulisan bergaris bawah -->
+ 	<u> tulisan ini dicetak bergaris bawah </u>
+ 	<!--membuat format superscript-->
+ 	dalam matematika , x pangkat 2 tulisan dengan x <sup>2</sup>
+ 	<p>
+ 	<!--membuat format subscript -->
+ 	Rumus kimia buat oksigen adalah O <sub>2</sub>
+
+
+
+	</body>
+<html>
+	<head>
+		<title>
+			pengolahan FONT dengan properties
+		</title>
+	</head>
+	<body>
+		<font size = "1" face = tahoma color = #ff000> tulisan ini bertulis dengan ukuran 1, dengan  font tahoma dan berwarna hijau 
+		</font>
+		<br> 
+		<font size="4" face = arial color = green > tulisan ini bertulis dengan ukuran 4, dengan font arial dan berwarna hijau 
+		</font>
+		</body>
+	</html>
+
+	<html> 
+	<head> 
+		<title>
+			menambahkan horizontal rules pada website 
+		</title>
+	</head>
+	<body>
+		menambahakan garis mendatar pada halaman html 
+		<hr size = "15">
+		 <hr widht ="100" align="left">
+		 <hr color ="blue">
+
+		 <hr size = "20" widht ="300" noshade=>
+	</body>
+</html>
+
+<html>
+	<head>
+		<title>penggunaan listing</title>
+	</head>
+	<body>
+		<h3> menggunkan Unordered List </h3>
+		<hr>
+		<h4> Ordered List Dengan Type Default </h4>
+		<ul>
+			<li> Agung Nugroho </li>
+			<li> Mulya sulityono </li>
+			<li> Bernadhed </li>
+		</ul>
+
+		<h4> Unordered List Dengan Type Cirle </h4>
+		<ul type = "Cirle">
+			<li> Agung Nugroho </li>
+			<li> Mulya sulityono </li>
+			<li> Bernadhed </li>
+		</ul>
+
+		<h4> Unordered List Dengan Type Disc </h4>
+		<ul type ="disc">
+			<li> Agung Nugroho </li>
+			<li> Mulya sulityono </li>
+			<li> Bernadhed </li>
+		</ul>
+
+		<h4> Unordered List Dengan Type square </h4>
+		<ul type="square">
+			<li> Agung Nugroho </li>
+			<li> Mulya sulityono </li>
+			<li> Bernadhed </li>
+		</ul>
+	</body>
+
+<html>
+ 	<head>
+ 		<title> menggunakan orderan list</title>
+ 	</head>
+ 	<body>/
+		<h3> Menggunkan Orderan List </h3>
+		<hr>
+		<h4> Orderan list menggunkan Type Default </h4>
+		<ol>
+			<li> Agung Nugroho </li>
+			<li> Bernadhed </li>
+			<li> Mulya Sulistyono</li>	
+		</ol>
+
+		<h4> Orderan List Menggunkan Type a </h4>
+		<ol type="a">
+			<li> Agung Nugroho </li>
+			<li> Bernadhed </li>
+			<li> Mulya Sulistyono</li>	
+		</ol>
+
+		<h4> Orderan List Menggunakan Type I </h4>
+		<ol type="I">
+			<li> Agung Nugroho </li>
+			<li> Bernadhed </li>
+			<li> Mulya Sulistyono</li>	
+		</ol>
+
+		<h4> Orderan List Menggunkan Type Atribut Strat </h4>
+		<ol start="14">
+			<li> Agung Nugroho </li>
+			<li> Bernadhed </li>
+			<li> Mulya Sulistyono</li>	
+		</ol>
+	</body>
+</html>
+</html>
