@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BPJS Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 0;
+        }
+        .form-section {
+            margin-top: 20px;
+        }
+        .form-section label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        .form-section input[type="text"],
+        .form-section input[type="email"],
+        .form-section input[type="tel"],
+        .form-section textarea,
+        .form-section input[type="date"] {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .checkbox-group {
+            display: flex;
+            flex-direction: column;
+            margin-top: 5px;
+        }
+        .checkbox-group label {
+            font-weight: normal;
+            margin-top: 5px;
+        }
+        .section-title {
+            font-weight: bold;
+            font-size: 16px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            color: #333;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+        .signature-section {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .signature {
+            border-top: 1px solid #000;
+            width: 200px;
+            text-align: center;
+            padding-top: 5px;
+        }
+        .note {
+            font-size: 0.8em;
+            color: #555;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>FORMULIR REGISTRASI BADAN USAHA / BADAN HUKUM LAINNYA PEKERJA PENERIMA UPAH (PPU)</h2>
+    <form>
+
+        <!-- Informasi Umum Section -->
+        <div class="form-section">
+            <div class="section-title">Informasi Umum</div>
+            
+            <label for="diverifikasi">Diverifikasi oleh:</label>
+            <input type="text" id="diverifikasi">
+
+            <label for="direkam">Direkam oleh:</label>
+            <input type="text" id="direkam">
+
+            <label for="kode-badan-usaha">Kode Badan Usaha/Badan Hukum Lainnya:</label>
+            <input type="text" id="kode-badan-usaha">
+
+            <label for="virtual-account">No. Virtual Account:</label>
+            <input type="text" id="virtual-account">
+        </div>
+
+        <!-- Identitas Badan Usaha Section -->
+        <div class="form-section">
+            <div class="section-title">Identitas Badan Usaha / Badan Hukum Lainnya</div>
+            
+            <label for="nama-badan">Nama Badan Usaha/Badan Hukum Lainnya:</label>
+            <input type="text" id="nama-badan">
+
+            <label for="alamat-badan">Alamat Badan Usaha/Badan Hukum Lainnya:</label>
+            <textarea id="alamat-badan" rows="3"></textarea>
+
+            <label for="telepon">Telepon:</label>
+            <input type="tel" id="telepon">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email">
+
+            <label for="kode-pos">Kode Pos:</label>
+            <input type="text" id="kode-pos">
+
+            <label for="faksimili">Faksimili:</label>
+            <input type="text" id="faksimili">
+
+            <label>Status Badan Usaha/Badan Hukum Lainnya:</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox"> Pusat</label>
+                <label><input type="checkbox"> Cabang</label>
+                <label><input type="checkbox"> Anak Perusahaan</label>
+                <label><input type="checkbox"> Lainnya</label>
+            </div>
+
+            <label>Bentuk Badan Hukum:</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox"> PT</label>
+                <label><input type="checkbox"> CV</label>
+                <label><input type="checkbox"> UD</label>
+                <label><input type="checkbox"> Koperasi</label>
+                <label><input type="checkbox"> Yayasan</label>
+            </div>
+
+            <label for="npwp">NPWP Badan/Perorangan:</label>
+            <input type="text" id="npwp">
+
+            <label for="nama-pimpinan">Nama Pimpinan:</label>
+            <input type="text" id="nama-pimpinan">
+
+            <label>Status Kepemilikan:</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox"> Swasta Nasional</label>
+                <label><input type="checkbox"> BUMN</label>
+                <label><input type="checkbox"> Koperasi</label>
+                <label><input type="checkbox"> Joint Venture</label>
+                <label><input type="checkbox"> Lainnya</label>
+            </div>
+
+            <label for="jenis-usaha">Jenis Usaha:</label>
+            <input type="text" id="jenis-usaha">
+        </div>
+
+        <!-- Signature Section -->
+        <div class="signature-section">
+            <p>........................................................, 20....</p>
+            <div class="signature">Pimpinan/Direktur</div>
+        </div>
+
+        <p class="note">Pembayaran iuran Jaminan Kesehatan selambat-lambatnya setiap tanggal 10. Apabila melewati tanggal tersebut, akan dikenakan denda keterlambatan iuran dan sanksi sesuai dengan ketentuan yang berlaku.</p>
+    </form>
+</div>
+
+</body>
+</html>
